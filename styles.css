@@ -1,0 +1,21 @@
+.box{
+    display: flex;
+    width: 554px;
+    max-height: 554px;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    border: 2px solid black;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.options{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
